@@ -1,6 +1,6 @@
-# NodeJS Playground
+# Node.js Playground
 
-Playing around NodeJS
+Playing around Node.js
 
 ## Requirements 
 

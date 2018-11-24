@@ -1,9 +1,10 @@
 {
-  "name": "calculo-de-projecao-nodejs",
+  "name": "nodejs-playground",
   "version": "1.0.0",
-  "description": "Cálculo de projeção de investimentos baseado em nodejs",
+  "description": "playing aroud node.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fpjunqueira",
@@ -11,6 +12,8 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {}
 }
