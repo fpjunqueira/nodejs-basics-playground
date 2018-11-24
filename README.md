@@ -1,4 +1,6 @@
-# Cálculo de Projeção de Investimentos
+# NodeJS Playground
+
+Playing around NodeJS
 
 ## Requirements 
 
