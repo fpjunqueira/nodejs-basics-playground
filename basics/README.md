@@ -1,28 +1,26 @@
-#JavaScript and Node.js Basics Playground
+# JavaScript and Node.js Basics Playground
 
 JavaScript/Node.js's Basics Playground
 
-##Specification
+## Specification
 
-ECMAScript 
+ECMAScript
 
-##Implementation
+## Implementation
 
 JavaScript
 
-##Engine
-Chrome's V* JavaScript engine
+## Engine Chrome's V* JavaScript engine
 
-##Language
+## Language
 
 Node.js
 
-_"Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient."_
+"Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient."
 
 https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5
 
-
-##JS is...
+## JS is...
 
 * assync
 * mono-thread
