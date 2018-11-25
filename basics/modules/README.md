@@ -1,6 +1,6 @@
-## Modules
+# Modules
 
-**Módulos do Projeto**
+## Módulos do Projeto
 
 Criar módulo:
 
@@ -20,14 +20,14 @@ const module1 = require('./module')
 ```
 
 
-**Módulos do Core**
+## Módulos do Core
 
 ```
 const fs = require('fs')
 ```
 
 
-**Módulos Terceiros**
+## Módulos Terceiros
 
 `$ npm install uuid`
 

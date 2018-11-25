@@ -1,0 +1,32 @@
+# Testing
+
+## Unit Testing
+
+**Test Runner: Mocha**
+
+`
+$ npm install --save-dev mocha
+`
+
+**Assertion:**
+
+`
+$ npm install --save-dev chai
+`
+
+**Executing Mocha**
+
+`
+$ find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec
+`
+
+```
+"scripts": {
+    ...
+    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec"
+  }
+```
+
+`
+$ npm test
+`
