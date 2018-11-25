@@ -1,20 +1,18 @@
-# Testing
+# Unit Testing
 
-## Unit Testing
-
-**Test Runner: Mocha**
+## Test Runner: Mocha
 
 `
 $ npm install --save-dev mocha
 `
 
-**Assertion:**
+## Assertion
 
 `
 $ npm install --save-dev chai
 `
 
-**Executing Mocha**
+## Executing Mocha
 
 `
 $ find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec
@@ -31,7 +29,7 @@ $ find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec
 $ npm test
 `
 
-**Testing Assync Codes With Stub**
+## Testing Assync Codes With Stub
 
 `
 $ npm install --save-dev sinon 
