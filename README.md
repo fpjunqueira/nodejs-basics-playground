@@ -31,3 +31,17 @@ Just playing around Node.js
 
 ` $ npm run coverage
 `
+
+## Debug
+
+**Chrome:**
+
+` $ node --inspect index.js
+`
+ 
+**VSCode:** 
+
+Launch configurations: ./.vscode/lauch.json, press F5 to start debug.
+
+https://code.visualstudio.com/docs/editor/debugging
+

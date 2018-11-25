@@ -2,6 +2,8 @@
  * bind cria um novo contexto injetando a variavel path
  * para ser logada no callback de readdir que é uma função
  * referenciada.
+ * 
+ * Outra alternativa é realizar arrow function.
  */
 const fs = require('fs')
 const path = './'
