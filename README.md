@@ -22,4 +22,12 @@ Just playing around Node.js
 ` $ nodemon index.js
 `
 
-**Deploy**
+## Test
+
+` $ npm test
+`
+
+## Test With Coverage
+
+` $ npm run coverage
+`
