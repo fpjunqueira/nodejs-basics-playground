@@ -45,3 +45,9 @@ Launch configurations: ./.vscode/lauch.json, press F5 to start debug.
 
 https://code.visualstudio.com/docs/editor/debugging
 
+
+## Radar
+
+- liquibase
+- environments
+- 
