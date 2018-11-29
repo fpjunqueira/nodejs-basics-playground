@@ -50,4 +50,4 @@ https://code.visualstudio.com/docs/editor/debugging
 
 - liquibase
 - environments
-- 
+- travis
