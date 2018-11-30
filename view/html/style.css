@@ -8,5 +8,21 @@ h1.title{
     font-size: 50px;
 }
 #principal{
-    border: burlywood
+    border: burlywood;
+}
+
+.box{
+    background: rgb(201, 201, 201);
+    padding: 20px;
+    border: 4px solid red;
+    margin: 40px;
+}
+.box span{
+    background: white;
+    padding: 10px;
+}
+.box:hover{
+    background: blue;
+    border: none;
+    padding: 24px; /* soma de padding e border do box */
 }
