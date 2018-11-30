@@ -1,28 +1,38 @@
-body{
+body {
     background: grey;
     font-family: sans-serif;
     margin: 20px;
 }
-h1.title{
+h1.title {
     color: rgb(201, 201, 201);
     font-size: 50px;
 }
-#principal{
+#principal {
     border: burlywood;
 }
 
-.box{
+.box {
     background: rgb(201, 201, 201);
     padding: 20px;
     border: 4px solid red;
     margin: 40px;
+    /* display: inline;  block vs inline elements */
 }
-.box span{
+.box span {
     background: white;
     padding: 10px;
+    display: block; /* block vs inline elements */
 }
-.box:hover{
+.box:hover {
     background: blue;
     border: none;
-    padding: 24px; /* soma de padding e border do box */
+    padding: 24px; /* plus padding and border do box */
+}
+
+/* Responsive - Media Query - CSS 3 */
+/* Mobile First - Recomended */
+@media(min-width: 768px) {
+    .box span {
+        background: red;
+    }
 }

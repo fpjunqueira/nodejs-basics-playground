@@ -51,3 +51,6 @@ https://code.visualstudio.com/docs/editor/debugging
 - liquibase
 - environments
 - travis
+- rabbitMQ
+- S3 aws
+- sqs aws
