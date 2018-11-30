@@ -10,12 +10,32 @@
             <h2>Sobre</h2>
             <a href="about.html">About</a>
             <a href="https://nodejs.org/en/">Oficial Site</a>            
-            <p> <strong>Node.js</strong> <em>basices</em></p>
+            <p> <strong>Node.js</strong> <em>basics</em></p>
             <p><a href="pure-css-example.html">Pure CSS Example</a></p>
             <p><a href="bootstrap-example.html">Bootstrap Example</a></p>
         </section>
+        <!-- css example-->
         <div class="box">
             <span>Texto</span>
         </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script>
+            // Vanilla JS
+            /*
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log('Content Loaded')
+                const p = document.createElement('p')
+                p.innerHTML = 'DevPleno FullStack Master'
+                document.body.appendChild(p)
+            })
+            */
+
+            // same code with jquery
+            $(function() {
+                console.log('loaded with jquery')
+                $('body').append('DevPleno FullStack Master')
+                $('.box').slideToggle()
+            })
+        </script>
     </body>
 </html>
