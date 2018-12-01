@@ -1,4 +1,4 @@
-# Node.js Playground
+# Node.js Basics Playground
 
 Just playing around basics concepts of Node.js
 
