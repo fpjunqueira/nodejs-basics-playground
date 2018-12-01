@@ -1,6 +1,6 @@
 # Node.js Playground
 
-Just playing around Node.js
+Just playing around basics concepts of Node.js
 
 ## Requirements 
 
@@ -46,10 +46,9 @@ Launch configurations: ./.vscode/lauch.json, press F5 to start debug.
 https://code.visualstudio.com/docs/editor/debugging
 
 
-## Radar
+## TODO (to test)
 
 - liquibase
-- environments
 - travis
 - rabbitMQ
 - S3 aws
